@@ -25,7 +25,7 @@ def getquote():
 
 def main():
     
-    while True:    
+    while True: #start loop
              
         answer1 = input("\nWould you like to hear a quote from the Gospel of Kanye West? y/n ")   #Ask user if they want a quote
        
@@ -42,9 +42,9 @@ def main():
 
         elif answer1 == "n":
             print(crayons.yellow("\nGoodbye! Praise be to Yezus!"))
-            break
+            break #end loop
 
         else:
             print("\n Please enter y or n ") #prompts user to enter y or n, will loop until one y or n is entered
     
-main()
+main() #call main function
